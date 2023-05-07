@@ -1,0 +1,68 @@
+
+@mixin flex( $dis, $just, $align){
+    display: $dis;
+    justify-content: $just;
+    align-items: $align;
+}
+
+@mixin grid($grid, $filas, $columnas) {
+    display: $grid ;
+    grid-template-rows: $filas ;
+    grid-template-columns: $columnas ;
+}
+
+/* MediaQueries */
+/* Movil pequeño - 0px a 320px */
+@mixin phone-peq ($medida: 320px) {
+    @media only screen and (max-width: $medida) {
+        @content;
+    }   
+}
+
+/* Movil comun - 321px a 480px */
+@mixin phone ($medida-1: 321px, $medida-2: 480px) {
+    @media only screen and (min-width: $medida-1) and (max-width: $medida-2) {
+        @content;
+    }   
+}
+
+/* Tablet - 481px a 768px */
+@mixin tablet-peq ($medida-1: 481px, $medida-2: 768px) {
+    @media only screen and (min-width: $medida-1) and (max-width: $medida-2) {
+        @content;
+    }   
+}
+
+/* Tablet normal - 769px a 960px */
+@mixin tablet ($medida-1: 769px, $medida-2: 960px) {
+    @media only screen and (min-width: $medida-1) and (max-width: $medida-2) {
+        @content;
+    }   
+}
+
+/* Desktop Chico - 961px a 1024px */
+@mixin desktop ($medida-1: 961, $medida-2: 1024) {
+    @media only screen and (min-width: $medida-1) and (max-width: $medida-2) {
+        @content;
+    }   
+}
+
+/* Ordenador Escritorio - 1025px a 1328px */
+@mixin desktop-max ($medida: 1025px) {
+    @media screen and (min-width: $medida) {
+        @content;
+    }   
+}
+
+/* Ancho personalizado */
+@mixin media ($ancho-min){
+    @media screen and (min-width: #{$ancho-min}){
+        @content;
+    }
+}
+
+@mixin media-max($ancho-max){
+    @media screen and (max-width: #{$ancho-max}){
+        @content;
+    }
+}

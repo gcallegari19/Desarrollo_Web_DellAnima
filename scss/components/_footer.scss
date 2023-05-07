@@ -1,0 +1,21 @@
+footer{
+    .pie-pagina {
+        margin-top: 60px;
+        padding-top: 10px;
+        padding-bottom: 20px;}
+    p {
+        text-align: center;
+        font-size:xx-small;}
+            
+    .contacto {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        
+            li{
+            display: inline-table;
+            padding: 5px;}
+            }
+
+}

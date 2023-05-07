@@ -1,0 +1,66 @@
+@import "/Users/giannicallegari/Desktop/PreEntrega3-Callegari/scss/base/_mixins.scss";
+
+/* Page Nosotros */
+.nosotros{
+    background-image: url("../imagenes/fondo_pastel.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size:contain;
+	overflow-x: hidden;
+    width: 100%;}
+
+        .texto-nosotros {
+            padding: 30px 30px 50px 30px;
+            margin-top: 25px;
+            margin-bottom: 35px;
+            margin-left: 120px;
+            margin-right: 120px;
+            text-align: center;
+            font: size 80%;
+            min-width: 10%;
+
+            @include phone-peq {
+                padding: 30px 30px 15px 30px;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                margin-left: 5px;
+                margin-right: 5px;
+                text-align: center;
+                font: size 10%;
+                width: auto;
+            }
+
+            @include phone {
+                padding: 30px 30px 15px 30px;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                margin-left: 5px;
+                margin-right: 5px;
+                text-align: center;
+                font: size 10%;
+                width: auto;
+            }
+
+            @include tablet-peq {
+                padding: 30px 30px 15px 30px;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                margin-left: 20px;
+                margin-right: 20px;
+                text-align: center;
+                font: size 10%;
+                width: auto;
+            }
+
+            @include media-max(960px) {
+                padding: 30px 30px 15px 30px;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                margin-left: 80px;
+                margin-right: 80px;
+                text-align: center;
+                font: size 10%;
+                width: auto;
+            }
+    }
+

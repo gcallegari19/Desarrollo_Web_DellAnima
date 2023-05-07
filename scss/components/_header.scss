@@ -1,0 +1,33 @@
+
+@import "/Users/giannicallegari/Desktop/PreEntrega3-Callegari/scss/base/_mixins.scss";
+
+.navbar {
+    @include flex(flex, center, center);
+    padding: 30px 15px;
+    position: relative;
+    flex-wrap: wrap;
+}
+    
+.nav-item {
+        list-style: none;
+        padding: 10px 7px 2px 7px;
+        font-size:x-large;
+        font: bold;
+        font-family: 'Montserrat';
+        display: inline-block;
+}
+
+
+.navbar-nav{ 
+    li{
+        a{         
+            color:black;
+            text-decoration: none;
+        }
+    }
+   }
+
+.navbar-expand-lg .navbar-toggler {
+    @include media(1200px){
+        display: none;}
+  }

@@ -1,0 +1,48 @@
+
+@import "components/body";
+@import "components/header";
+@import "components/footer";
+@import "components/inicio";
+@import "components/nosotros";
+@import "components/productos";
+@import "components/exposiciones";
+@import "components/contacto";
+@import "base/mixins";
+@import "base/variable";
+
+
+
+/* Section Contenedor todas las paginas */
+section{
+    .container{
+        font-size: larger;
+        padding: 15px;
+        margin: 5px;}
+
+        h2{
+            text-align: center;
+            font-size: x-large;
+            padding: 15px;
+            margin-bottom: 30px;}
+        }
+
+
+/* Vuelta Inicio */
+section{
+    aside{
+        a{  
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            color: black;
+            width: $width-general;
+            padding-top: 20px;
+            padding-bottom: 40px;}
+        }
+}
+
+
+
+
+    
+    

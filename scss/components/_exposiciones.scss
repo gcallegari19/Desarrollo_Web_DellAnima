@@ -1,0 +1,72 @@
+/* Page Exposiciones */
+.imagen-expo {
+    width: 70%;
+    padding: 5px;
+    margin: 5px;
+    box-decoration-break: clone;
+    box-shadow: 1px 1px 1px 1px #999;
+    @include phone-peq {
+        width: 45%;
+        box-shadow: 2px 2px 2px 2px #999;}
+    @include phone {
+        width:50%;}
+    @include tablet-peq {
+        width: 60%;}
+    @include tablet {
+        width: 70%;}
+    }
+
+.texto-exposiciones {
+    padding: 30px 30px 50px 30px;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font: size 10%;
+    text-align: center;
+    min-width: 10%;
+    @include phone-peq {
+        padding: 30px 30px 15px 30px;
+        margin-top: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font: size 10%;
+        text-align: center;
+        width: auto;}
+    @include phone {
+        padding: 30px 30px 15px 30px;
+        margin-top: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font: size 10%;
+        text-align: center;
+        width: auto;}
+    @include tablet-peq {
+        padding: 30px 30px 15px 30px;
+        margin-top: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font: size 10%;
+        text-align: center;
+        width: auto;}
+    @include tablet {
+        padding: 30px 30px 15px 30px;
+        margin-top: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font: size 10%;
+        text-align: center;
+        width: auto;}
+    
+    
+    }
+
+.info-expo{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+
+    .img-expo{
+        transform: rotate(-5deg);
+        border: solid black 5px;
+        width: 40%;}
+}

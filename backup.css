@@ -178,7 +178,7 @@ body {
 
 /* CSS Seccion Productos */
 
-.seccion-productos {
+/*.seccion-productos {
     font-size: medium;
     text-align: center;
     padding: 15px;
@@ -190,7 +190,7 @@ body {
     font-size: x-large;
     padding: 15px;
     margin-bottom: 30px;
-}
+}*/
 
 .grid-container {
 	display: grid; 
@@ -252,6 +252,8 @@ body {
     padding: 15px;
     margin-bottom: 30px;
 }
+
+
 
 .imagen-expo {
     width: 70%;
@@ -337,7 +339,7 @@ body {
     margin-left: auto;
 }
 
-.title-container {
+/*.title-container {
     margin: 10px 0 30px 0;
     text-align: center;
     display: flex;
@@ -453,34 +455,34 @@ textarea.form-control {
 /* Movil pequeño - 0px a 320px */
 /* Movil */
 @media only screen and (max-width: 320px) {
-    body {
+    /*body {
         background-image: url("/imagenes/fondo-tamaño-movil.png") ;
         background-repeat: no-repeat;
         background-attachment:fixed;
         background-repeat:no-repeat;
         overflow-x: hidden;
-    }
-    .seccion-imagenes { 
+    }*/
+    /*.seccion-imagenes { 
         padding: 10px 7px 2px 7px;
         margin: 40px;
         }
     
-    .imagen-expo {
+    /*.imagen-expo {
         width: 45%;
         box-decoration-break: clone;
         box-shadow: 2px 2px 2px 2px #999;
-        }
+        }*/
 
-    .texto-nosotros {
+    /*.texto-nosotros {
         text-shadow: 3px 3px 0 #c9c8c8;
         text-align: center;
         font: size 15%;
-        }
+        }*/
 
-    .main-container-inicio {
-        display: none;}
+    /*.main-container-inicio {
+        display: none;}*/
 
-    .texto-nosotros {
+    /*.texto-nosotros {
         padding: 30px 30px 15px 30px;
         margin-top: 25px;
         margin-bottom: 25px;
@@ -489,9 +491,9 @@ textarea.form-control {
         text-align: center;
         font: size 10%;
         width: auto;
-        }
+        }*/
 
-    .texto-exposiciones {
+    /*.texto-exposiciones {
         padding: 30px 30px 15px 30px;
         margin-top: 2px;
         margin-left: 5px;
@@ -499,36 +501,36 @@ textarea.form-control {
         font: size 10%;
         text-align: center;
         width: auto;
-        }
+        }*/
 
-    .grid-container {
+    /*.grid-container {
         grid-template-columns: repeat(2,1fr);
-        }
-    .grid-title{
+        }*/
+    /*.grid-title{
         font-size: smaller;
-    }
+    }*/
 
   }
 
 /* Movil comun - 321px a 480px */
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-    body {
+    /*body {
         background-image: url("/imagenes/fondo-tamaño-movil.png");
         background-attachment: fixed;
         background-repeat:no-repeat;
         background: size 100% 100%;
-        overflow-x: hidden;} 
+        overflow-x: hidden;} */
 
-    .seccion-imagenes-mobile {
+    /*.seccion-imagenes-mobile {
         width: 100%;
         display: flex;
-        flex-direction: column; }
+        flex-direction: column; }*/
     
-    .main-container-inicio {
-        display: none;} 
+    /*.main-container-inicio {
+        display: none;} */
 
-    .texto-nosotros {
+    /*.texto-nosotros {
         padding: 30px 30px 15px 30px;
         margin-top: 25px;
         margin-bottom: 25px;
@@ -537,15 +539,15 @@ textarea.form-control {
         text-align: center;
         font: size 10%;
         width: auto;
-                }
+                }*/
 
-    .grid-container {
-        grid-template-columns: repeat(2,1fr);}
+    /*.grid-container {
+        grid-template-columns: repeat(2,1fr);}*/
             
-    .grid-title{
-        font-size: smaller;}
+    /*.grid-title{
+        font-size: smaller;}*/
     
-    .texto-exposiciones {
+    /*.texto-exposiciones {
         padding: 30px 30px 15px 30px;
         margin-top: 2px;
         margin-left: 5px;
@@ -553,32 +555,32 @@ textarea.form-control {
         font: size 10%;
         text-align: center;
         width: auto;
-        }
+        }*/
 
-    .imagen-expo {
+    /*.imagen-expo {
         width:50%;
         box-decoration-break: clone;
         box-shadow: 2px 2px 2px 2px #999;}
-    }
+    }*/
     
 
 
 /* Tablet - 481px a 768px */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    body {
+    /*body {
         background-image: url("/imagenes/fondo-tamaño-mediano.png");
         background-attachment: fixed;
         background-repeat:no-repeat;
         background-size:100% 100%;
         overflow-x: hidden;
-    }   
-    .imagen-expo {
+    } */  
+    /*.imagen-expo {
         width: 60%;
         box-decoration-break: clone;
         box-shadow: 2px 2px 2px 2px #999;
-    }
+    }*/
 
-    .texto-nosotros {
+    /*.texto-nosotros {
         padding: 30px 30px 15px 30px;
         margin-top: 25px;
         margin-bottom: 25px;
@@ -587,9 +589,9 @@ textarea.form-control {
         text-align: center;
         font: size 10%;
         width: auto;
-            }
+            }*/
 
-    .texto-exposiciones {
+    /*.texto-exposiciones {
         padding: 30px 30px 15px 30px;
         margin-top: 2px;
         margin-left: 5px;
@@ -597,40 +599,40 @@ textarea.form-control {
         font: size 10%;
         text-align: center;
         width: auto;
-        }
+        }*/
 
-    .seccion-imagenes-mobile {
+    /*.seccion-imagenes-mobile {
         width: 100%;
         display: flex;
-        flex-direction: column; }
+        flex-direction: column; }*/
 
-    .main-container-inicio {
-        display: none;}
+    /*.main-container-inicio {
+        display: none;}*/
 
-    .grid-container {
-        grid-template-columns: repeat(3,1fr);}
+    /*.grid-container {
+        grid-template-columns: repeat(3,1fr);}*/
     
-    .grid-title{
-        font-size: smaller;}
+    /*.grid-title{
+        font-size: smaller;}*/
     }
   
 /* Tablet normal - 769px a 960px */
 @media only screen and (min-width: 769px) and (max-width: 960px) {
-    body {
+    /*body {
         background-image: url("/imagenes/fondo-tamaño-mediano.png");
         background-attachment: fixed;
         background-repeat:no-repeat;
         width: 100%;
         overflow-x: hidden;
-    }
+    }*/
 
-    .imagen-expo {
+    /*.imagen-expo {
         width: 70%;
         box-decoration-break: clone;
         box-shadow: 2px 2px 2px 2px #999;
-    }
+    }*/
 
-    .texto-exposiciones {
+    /*.texto-exposiciones {
         padding: 30px 30px 15px 30px;
         margin-top: 2px;
         margin-left: 5px;
@@ -638,9 +640,9 @@ textarea.form-control {
         font: size 10%;
         text-align: center;
         width: auto;
-        }
+        }*/
 
-    .texto-nosotros {
+    /*.texto-nosotros {
         padding: 30px 30px 15px 30px;
         margin-top: 25px;
         margin-bottom: 25px;
@@ -649,29 +651,29 @@ textarea.form-control {
         text-align: center;
         font: size 10%;
         width: auto;
-            }  
+            }  */
 
-    .seccion-imagenes-mobile {
+    /*.seccion-imagenes-mobile {
         display: none;
-    }
+    }*/
 
     .container-contacto {
         width: 750px;
       }
 
-    .seccion-imagenes figure .texto p {
+    /*.seccion-imagenes figure .texto p {
         color: black;
         font-size: 35px;
         transition: all 500ms ease-out;
         margin-top: 120px;
         text-shadow: 1px 1px 0 #abb7cf;
-    }
+    }*/
   }
 
-  @media (min-width: 960px) {   
+ /* @media (min-width: 960px) {   
     .seccion-imagenes-mobile {
         display: none;
-    }
+    }*/
 
     @media screen and (orientation:landscape) and (max-width: 1200px) {
         body {
@@ -691,12 +693,12 @@ textarea.form-control {
         }
     }
 
- @media (min-width: 992px){ 
+ /*@media (min-width: 992px){ 
     .container-contacto {
    width: 970px;}
  }
 
- @media (min-width:1024px){
+/* @media (min-width:1024px){
     .grid-container {
         grid-template-columns: repeat(4,1fr);
         width: 90%;
@@ -707,13 +709,13 @@ textarea.form-control {
 
 @media only screen and (min-width: 961px){
 
-    body {
+   /* body {
         background-image: url("/imagenes/fondo-tamaño-grande.png");
         background-attachment: fixed;
         background-repeat:no-repeat;
         width: 100%;
         overflow-x: hidden;
-    }
+    }*/
 
 .texto-nosotros {
     padding: 30px 30px 15px 30px;
@@ -742,7 +744,8 @@ textarea.form-control {
     width: auto;
         }
     }
-@media (min-width: 992px){
+
+/*@media (min-width: 992px){
     .col-md-6 {
       width: 50%;
       float: left;
@@ -750,12 +753,12 @@ textarea.form-control {
 }
 
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
 .navbar-expand-lg .navbar-toggler {
   display: none;
-}
+}*/
 
-.container-contacto {
+/*.container-contacto {
     width: 1170px;
   }
 }

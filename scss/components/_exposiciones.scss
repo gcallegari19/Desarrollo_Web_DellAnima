@@ -6,10 +6,10 @@
     box-decoration-break: clone;
     box-shadow: 1px 1px 1px 1px #999;
     @include phone-peq {
-        width: 45%;
+        width: 60%;
         box-shadow: 2px 2px 2px 2px #999;}
     @include phone {
-        width:50%;}
+        width:60%;}
     @include tablet-peq {
         width: 60%;}
     @include tablet {
@@ -63,10 +63,11 @@
 .info-expo{
     display: flex;
     justify-content: center;
-    margin: 100px;
+    margin: 10px;
 
     .img-expo{
         transform: rotate(-5deg);
         border: solid black 5px;
-        width: 40%;}
+        margin-bottom: 5px;
+        width:60%;}
 }

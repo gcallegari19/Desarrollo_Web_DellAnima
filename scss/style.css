@@ -23,7 +23,7 @@
 body {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  background-image: url("/imagenes/fondo-tamaño-grande.png");
+  background-image: url("../imagenes/fondo-tamaño-grande.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -32,32 +32,32 @@ body {
 }
 @media only screen and (max-width: 320px) {
   body {
-    background-image: url("/imagenes/fondo-tamaño-movil.png");
+    background-image: url("../imagenes/fondo-tamaño-movil.png");
   }
 }
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   body {
-    background-image: url("/imagenes/fondo-tamaño-movil.png");
+    background-image: url("../imagenes/fondo-tamaño-movil.png");
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   body {
-    background-image: url("/imagenes/fondo-tamaño-mediano.png");
+    background-image: url("../imagenes/fondo-tamaño-mediano.png");
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 960px) {
   body {
-    background-image: url("/imagenes/fondo-tamaño-mediano.png");
+    background-image: url("../imagenes/fondo-tamaño-mediano.png");
   }
 }
 @media only screen and (min-width: 961) and (max-width: 1024) {
   body {
-    background-image: url("/imagenes/fondo-tamaño-grande.png");
+    background-image: url("../imagenes/fondo-tamaño-grande.png");
   }
 }
 @media screen and (min-width: 1025px) {
   body {
-    background-image: url("/imagenes/fondo-tamaño-grande.png");
+    background-image: url("../imagenes/fondo-tamaño-grande.png");
   }
 }
 
@@ -304,10 +304,10 @@ footer .contacto li {
 @media screen and (max-width: 960px) {
   .texto-nosotros {
     padding: 30px 30px 15px 30px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
     text-align: center;
     font: size 10%;
     width: auto;
@@ -405,13 +405,13 @@ footer .contacto li {
 }
 @media only screen and (max-width: 320px) {
   .imagen-expo {
-    width: 45%;
+    width: 60%;
     box-shadow: 2px 2px 2px 2px #999;
   }
 }
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .imagen-expo {
-    width: 50%;
+    width: 60%;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -482,12 +482,13 @@ footer .contacto li {
 .info-expo {
   display: flex;
   justify-content: center;
-  margin: 100px;
+  margin: 10px;
 }
 .info-expo .img-expo {
   transform: rotate(-5deg);
   border: solid black 5px;
-  width: 40%;
+  margin-bottom: 5px;
+  width: 60%;
 }
 
 /* Page Contacto */

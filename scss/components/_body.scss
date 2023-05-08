@@ -18,18 +18,18 @@
 body {
     text-align: center;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url("/imagenes/fondo-tamaño-grande.png") ;
+    background-image: url("../imagenes/fondo-tamaño-grande.png") ;
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size:cover;
 	overflow-x: hidden;
     width: 100%;
-    @include phone-peq {background-image: url("/imagenes/fondo-tamaño-movil.png")};
-    @include phone {background-image: url("/imagenes/fondo-tamaño-movil.png")};
-    @include tablet-peq {background-image: url("/imagenes/fondo-tamaño-mediano.png");}
-    @include tablet {background-image: url("/imagenes/fondo-tamaño-mediano.png");}
-    @include desktop {background-image: url("/imagenes/fondo-tamaño-grande.png");}
-    @include desktop-max {background-image: url("/imagenes/fondo-tamaño-grande.png");}
+    @include phone-peq {background-image: url("../imagenes/fondo-tamaño-movil.png")};
+    @include phone {background-image: url("../imagenes/fondo-tamaño-movil.png")};
+    @include tablet-peq {background-image: url("../imagenes/fondo-tamaño-mediano.png");}
+    @include tablet {background-image: url("../imagenes/fondo-tamaño-mediano.png");}
+    @include desktop {background-image: url("../imagenes/fondo-tamaño-grande.png");}
+    @include desktop-max {background-image: url("../imagenes/fondo-tamaño-grande.png");}
     }
      
 

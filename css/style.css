@@ -32,32 +32,32 @@ body {
 }
 @media only screen and (max-width: 320px) {
   body {
-    background-image: url("../imagenes/fondo-tamaño-movil.png");
+    background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-movil.png");
   }
 }
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   body {
-    background-image: url("../imagenes/fondo-tamaño-movil.png");
+    background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-movil.png");
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   body {
-    background-image: url("../imagenes/fondo-tamaño-mediano.png");
+    background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-mediano.png");
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 960px) {
   body {
-    background-image: url("../imagenes/fondo-tamaño-mediano.png");
+    background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-mediano.png");
   }
 }
 @media only screen and (min-width: 961) and (max-width: 1024) {
   body {
-    background-image: url("../imagenes/fondo-tamaño-grande.png");
+    background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-grande.png");
   }
 }
 @media screen and (min-width: 1025px) {
   body {
-    background-image: url("../imagenes/fondo-tamaño-grande.png");
+    background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-grande.png");
   }
 }
 
@@ -188,12 +188,21 @@ footer .contacto li {
 }
 .main-container-inicio .seccion-imagenes .texto p {
   color: black;
-  font-size: 50px;
+  font-size: 40px;
   transition: all 500ms ease-out;
   margin-top: 120px;
   text-shadow: 3px 3px 0 #abb7cf;
 }
 @media only screen and (min-width: 769px) and (max-width: 960px) {
+  .main-container-inicio .seccion-imagenes .texto p {
+    color: black;
+    font-size: 35px;
+    transition: all 500ms ease-out;
+    margin-top: 120px;
+    text-shadow: 1px 1px 0 #abb7cf;
+  }
+}
+@media only screen and (min-width: 961) and (max-width: 1024) {
   .main-container-inicio .seccion-imagenes .texto p {
     color: black;
     font-size: 35px;

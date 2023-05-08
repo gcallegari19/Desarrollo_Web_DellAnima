@@ -24,18 +24,15 @@ body {
     background-size:cover;
 	overflow-x: hidden;
     width: 100%;
-    @include phone-peq {
-        background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-movil.png")};
-    @include phone {
-        background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-movil.png")};
-    @include tablet-peq {
-        background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-mediano.png");}
-    @include tablet {
-        background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-mediano.png");}
-    @include desktop {
-        background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-grande.png");}
-    @include desktop-max {
-        background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-grande.png");}
-    }
-     
+    @include media-max(480px){
+        background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-movil.png");
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size:cover;
+	    overflow-x: hidden;
+        width: 50%;};
 
+    @include media(481px){
+        background-image: url("/Users/giannicallegari/Desktop/PreEntrega3-Callegari/imagenes/fondo-tamaño-grande.png");}
+    
+}

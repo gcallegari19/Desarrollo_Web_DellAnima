@@ -473,7 +473,7 @@ footer .contacto li {
   transform: rotate(-5deg);
   border: solid black 5px;
   margin-bottom: 5px;
-  width: 30%;
+  width: 25%;
 }
 
 /* MediaQueries */
@@ -590,7 +590,7 @@ section aside a {
   text-decoration: none;
   color: black;
   width: 100%;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 

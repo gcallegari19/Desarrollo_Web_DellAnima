@@ -1,5 +1,6 @@
 
 @import "/Users/giannicallegari/Desktop/PreEntrega3-Callegari/scss/base/_mixins.scss";
+@import "/Users/giannicallegari/Desktop/PF-Callegari/scss/base/_variable.scss";
 
 /* Main imagenes */
 .main-container-inicio{
@@ -38,15 +39,15 @@
             }} 
 
                 img{
-                    width: 100%;
-                    height: 100%;
+                    width: $width-general;
+                    height: $height-general;
                     transition: all 500ms ease-out;}
 
                 .texto{
                     position:absolute;
                     top: 0;
-                    width: 100%;
-                    height: 100%;
+                    width: $width-general;
+                    height: $height-general;
                     background: rgba(11,103,123,0.6);
                     transition: all 500ms ease-out;
                     opacity: 0;
@@ -80,11 +81,11 @@
 
 /* Inicio Seccion Imagenes mobile */
 .seccion-imagenes-mobile {
-        width: 100%;
+        width: $width-general;
         display: flex;
         flex-direction: column;
         @include media-max(768px) {
-            width: 100%;
+            width: $width-general;
             display: flex;
             flex-direction: column;}
 

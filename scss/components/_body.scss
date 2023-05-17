@@ -1,4 +1,5 @@
 @import "/Users/giannicallegari/Desktop/PreEntrega3-Callegari/scss/base/_mixins.scss";
+@import "/Users/giannicallegari/Desktop/PF-Callegari/scss/base/_variable.scss";
 
 * { 
     margin: 0;
@@ -23,7 +24,7 @@ body {
     background-attachment:fixed;
     background-size:cover;
 	overflow-x: hidden;
-    width: 100%;
+    width: $width-general;
 
 }
    

@@ -1,4 +1,5 @@
 @import "/Users/giannicallegari/Desktop/PreEntrega3-Callegari/scss/base/_mixins.scss";
+@import "/Users/giannicallegari/Desktop/PF-Callegari/scss/base/_variable.scss";
 
 /* Page Nosotros */
 .nosotros{
@@ -7,7 +8,7 @@
     background-repeat: no-repeat;
     background-size:contain;
 	overflow-x: hidden;
-    width: 100%;}
+    width: $width-general;}
 
         .texto-nosotros {
             padding: 30px 30px 50px 30px;

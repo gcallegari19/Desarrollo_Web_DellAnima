@@ -1,3 +1,5 @@
+@import "/Users/giannicallegari/Desktop/PreEntrega3-Callegari/scss/base/_mixins.scss";
+
 /* Page Exposiciones */
 .imagen-expo {
     width: 70%;
@@ -57,7 +59,7 @@
         text-align: center;
         width: auto;}
     
-    
+
     }
 
 .info-expo{
@@ -69,5 +71,5 @@
         transform: rotate(-5deg);
         border: solid black 5px;
         margin-bottom: 5px;
-        width:40%;}
+        width:30%;}
 }

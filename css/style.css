@@ -372,6 +372,14 @@ footer .contacto li {
   }
 }
 
+/* MediaQueries */
+/* Movil pequeño - 0px a 320px */
+/* Movil comun - 321px a 480px */
+/* Tablet - 481px a 768px */
+/* Tablet normal - 769px a 960px */
+/* Desktop Chico - 961px a 1024px */
+/* Ordenador Escritorio - 1025px a 1328px */
+/* Ancho personalizado */
 /* Page Exposiciones */
 .imagen-expo {
   width: 70%;
@@ -465,9 +473,17 @@ footer .contacto li {
   transform: rotate(-5deg);
   border: solid black 5px;
   margin-bottom: 5px;
-  width: 40%;
+  width: 30%;
 }
 
+/* MediaQueries */
+/* Movil pequeño - 0px a 320px */
+/* Movil comun - 321px a 480px */
+/* Tablet - 481px a 768px */
+/* Tablet normal - 769px a 960px */
+/* Desktop Chico - 961px a 1024px */
+/* Ordenador Escritorio - 1025px a 1328px */
+/* Ancho personalizado */
 /* Page Contacto */
 .row {
   margin-right: -15px;
